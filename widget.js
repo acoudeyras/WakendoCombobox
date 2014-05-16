@@ -75,7 +75,15 @@ WAF.define('WakendoCombobox', ['waf-core/widget', 'wakendoCore', 'kendoHelpers']
 
         disable: function() {
         	this.kendoWidget.enable(false);
-        }
+        },
+        
+        open: function() {
+        	this.kendoWidget.open();
+        },
+
+        close: function() {
+        	this.kendoWidget.close();
+        }        
         
     });
 
