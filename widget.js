@@ -45,10 +45,10 @@ WAF.define('WakendoCombobox', ['waf-core/widget', 'wakendoCore', 'kendoHelpers']
         render: function() {
         	var self = this;	
         	$(self.node).empty();
-			var $el = $('<input />').appendTo(self.node);
+		var $el = $('<input />').appendTo(self.node);
 			
 	
-			var datasource = kendoHelpers.kendoDatasourceFromWakanda(this.items, self.maxResults());
+		var datasource = kendoHelpers.kendoDatasourceFromWakanda(this.items, self.maxResults());
 			
         	$el.kendoComboBox({
         		dataSource: datasource,
