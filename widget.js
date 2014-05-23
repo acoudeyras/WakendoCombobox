@@ -58,11 +58,9 @@ WAF.define('WakendoCombobox', ['waf-core/widget', 'wakendoCore', 'kendoHelpers']
 				filter: self.filterType(),
 				suggest: self.suggest(),
         		change: function(event) {
-        			
         			self.valueChangeSubscriber.pause();
         			self.value(self.kendoWidget.value());
         			self.valueChangeSubscriber.resume();
-        			
         		}
         	});
 
