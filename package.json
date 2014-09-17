@@ -15,6 +15,7 @@
     "engines": {
         "wakanda": ">= 8"
     },
+    "externalWidgets" : ["https://github.com/acoudeyras/WakendoCore.git"],
     "license": "MIT",
     "loadDependencies": [{
         "id": "Widget_V2"
